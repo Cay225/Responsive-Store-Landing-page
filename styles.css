@@ -1,0 +1,110 @@
+/* Custom CSS for the landing page */
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Light background color */
+    color: #333; /* Text color */
+}
+
+/* Navbar styles */
+.navbar-custom {
+    background-color: #0860bf; /* Blue color for navbar */
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-nav .nav-link {
+    color: #fff; /* White text color */
+}
+
+.navbar-custom .navbar-toggler-icon {
+    color: #fff; /* White color for toggler icon */
+}
+
+/* Banner Section styles */
+.banner {
+    position: relative;
+    background-image: url('top-view-red-trainers-wooden-surface.jpg'); /* Your banner image */
+    background-size: cover;
+    background-position: center;
+    height: 400px; /* Adjust height as needed */
+    color: #fff; /* White text color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(189, 175, 175, 0.5); /* Dark overlay */
+}
+
+.banner-content {
+    text-align: center;
+}
+
+/* Product Section styles */
+.product-section {
+    padding: 50px 0;
+}
+
+.product-section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.card {
+    border: #343a40;
+    transition: transform 0.3s;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    background-color: #185898; /* Light background color for cards */
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    color: aqua;
+}
+
+/* About Section styles */
+.about-section {
+    padding: 50px 0;
+}
+
+.about-section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.about-section p {
+    text-align: justify;
+}
+
+/* Contact Section styles */
+.contact-section {
+    padding: 50px 0;
+}
+
+.contact-section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Footer Section styles */
+.footer {
+    padding: 20px 0;
+    background-color: #343a40; /* Dark background color for footer */
+    color: #fff; /* White text color */
+    text-align: center;
+}
+
+.social-icons a {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 24px;
+}
